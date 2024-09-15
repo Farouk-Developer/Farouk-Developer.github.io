@@ -1,146 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Up&Move</title>
+    <title>Up & Move</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
+    <script src="app.js" defer></script>
 </head>
 <body>
-   <header id="main header">
-    <!-- the content of the header goes here -->
-     <h1 id="logo">Up & Move</h1>
-     <nav>
-        <ul id="nav-ul">
-            <li><a href="" class="navbutton" >Home</a></li>
-            <li><a href="" class="navbutton" >About us</a></li>
-            <li><a href="" class="navbutton" >Contact</a></li>
-        </ul>
-     </nav>
-   </header> 
-<main>
-    <div id="main-content">
-    <aside>
-        <section>
-             <h4>Filter by Mucle Group</h4>
-             <nav>
-                 <ul id="nav-ul-li-group" >
-                     <li><a href="">Upper Body</a></li>
-                     <li><a href="">Lower Body</a></li>
-                     <li><a href="">Core</a></li>
-                 </ul>
-             </nav>
-        </section> 
-        <section>
-             <h4>Pre-written Workouts</h4>
-             <nav>
-                 <ul id="nav-ul-li-difficulty">
-                     <li><a href="">Beginnger</a></li>
-                     <li><a href="">Intermidiate</a></li>
-                     <li><a href="">Advanced</a></li>
-                     <li><a href="">Athlete</a></li>
-                 </ul>
-             </nav>
-             </nav>
-        </section>
-     </aside>
-        <div>
-            <article>
-                <header>
-                     <!-- Article's header goes here -->
-                    <h2>Up & Move Bio</h2>
-                    <h3>Red time: 2 minutes </h3>
-                </header>
-                <main>
-                    <p>Up & Move is dedicated to empowering individuals at every stage of their fitness journey. Whether you're just starting out or a seasoned gym-goer, we provide the guidance, tools, and support to help you achieve your health and wellness goals. Our mission is simple: to make fitness accessible, enjoyable, and sustainable for everyone. From beginner-friendly workout plans to advanced strength training programs, we offer a diverse range of resources tailored to fit your unique needs and lifestyle.
-                        At Up & Move, we believe that progress starts with taking the first step. We’re here to motivate, educate, and inspire you every step of the way. Join our community today and unlock your full potential, one workout at a time!</p>
-                    <blockquote>
-                        "Up & Move Founder" - <cite>Farouk, 2024</cite>
-                    </blockquote>
-                    <p>Thank you for visiting Up & Move and for becoming part of our growing community! Whether you're just beginning your fitness journey or you're already a gym enthusiast, I'm truly grateful to have you with us. Together, we’re building a supportive space where everyone can thrive, stay motivated, and achieve their goals. Your trust means the world to us, and we’re excited to be part of your fitness success. Let’s keep moving forward—stronger, together!
-
-                        – Farouk
-                        Founder, Up & Move</p>
-                </main>
-                <footer>
-                    <h2>Author: Farouk Wingfield</h2>
-                    <img src="https://placebear.com/200/300" alt="A profile pic of a bear">
-                    <h3>Last posted: 14/09/2024</h3>
-                    <a href="https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/" target="blank">NHS Guidance before wokring out</a>
-                </footer>
-            </article>
-        </div>
-
-    </div>
-    <!-- main content of the website can go here -->
-    <hr>
-    <h2>Sign up for New Workouts</h2>
-    <form action="" method="">
-        <label for="first_name">First Name:</label>
-        <input type="text" id="first_name" name="first_name" required>
-        <br>
-        <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name" required>
-        <br>
-
-        <label for="email">Last Email:</label>
-        <input type="email"  name="email" id="email">
-        <br>
-
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-        <br>
-        <label for="favourite_animal">Your Goal:</label>
-        <input type="radio" name="favourite_animal" id="dog" value="dog">
-        <label for="dog">Lose Weight</label>
-        <input type="radio" name="favourite_animal" id="cat" value="cat">
-        <label for="cat">Gain Muscle</label>
-        <input type="radio" name="favourite_animal" id="Hedgehog" value="Hedgehog">
-        <label for="Hedgehog">Gain Muscle & Lose Fat</label>
-        <br>
-
-        <label for="country">UK Country:</label>
-        <select name="country" id="country">
-            <option value="england">England</option>
-            <option value="scotland">Scotland</option>
-            <option value="wales">Wales</option>
-            <option value="northern_island">Northan Island</option>
-        </select>
-
-        <label for="bio">Your Interest:</label>
-        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-        <br>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <label for="subscribe">Subscribe to our newsletter</label>
-        <br>
-
-        <input type="submit" value="Send!">
-
-    </form>
-    <hr>
-
-</main>
-<footer>
-    <h2>Up & Move</h2>
-    <section>
+    <header id="main-header">
+        <h1 id="logo">Up & Move</h1>
         <nav>
-            <ul id="footer-ul">
-                <div>   
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact</a></li>
-                     <li><a href="">Careers</a></li>
-                </div>
-                <div> 
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Cookie Policy</a></li>
-                </div>
+            <ul id="nav-ul">
+                <li><a href="#" class="navbutton">Home</a></li>
+                <li><a href="#" class="navbutton">About Us</a></li>
+                <li><a href="#" class="navbutton">Contact</a></li>
             </ul>
         </nav>
-    </section>
-</footer>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Filter by Muscle Group</h4>
+                    <nav>
+                        <ul id="nav-ul-li-group">
+                            <li><a href="#">Upper Body</a></li>
+                            <li><a href="#">Lower Body</a></li>
+                            <li><a href="#">Core</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Pre-written Workouts</h4>
+                    <nav>
+                        <ul id="nav-ul-li-difficulty">
+                            <li><a href="#">Beginner</a></li>
+                            <li><a href="#">Intermediate</a></li>
+                            <li><a href="#">Advanced</a></li>
+                            <li><a href="#">Athlete</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                        <h2>Up & Move Bio</h2>
+                        <h3>Read Time: 2 minutes</h3>
+                    </header>
+                    <main>
+                        <p>Up & Move is dedicated to empowering individuals at every stage of their fitness journey. Whether you're just starting out or a seasoned gym-goer, we provide the guidance, tools, and support to help you achieve your health and wellness goals. Our mission is simple: to make fitness accessible, enjoyable, and sustainable for everyone. From beginner-friendly workout plans to advanced strength training programs, we offer a diverse range of resources tailored to fit your unique needs and lifestyle.</p>
+                        <blockquote>
+                            "Up & Move Founder" - <cite>Farouk, 2024</cite>
+                        </blockquote>
+                        <p>Thank you for visiting Up & Move and for becoming part of our growing community! Whether you're just beginning your fitness journey or you're already a gym enthusiast, I'm truly grateful to have you with us. Together, we’re building a supportive space where everyone can thrive, stay motivated, and achieve their goals. Your trust means the world to us, and we’re excited to be part of your fitness success. Let’s keep moving forward—stronger, together! – Farouk, Founder, Up & Move</p>
+                    </main>
+                    <footer>
+                        <h2>Author: Farouk Wingfield</h2>
+                        <img src="https://placebear.com/200/300" alt="Profile picture of Farouk Wingfield">
+                        <h3>Last posted: 14/09/2024</h3>
+                        <a href="https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/" target="_blank">NHS Guidance Before Working Out</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+        <hr>
+        <h2>Sign Up for New Workouts</h2>
+        <form action="#" method="post">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label>Your Goal:</label>
+            <input type="radio" id="lose_weight" name="goal" value="lose_weight">
+            <label for="lose_weight">Lose Weight</label>
+            <input type="radio" id="gain_muscle" name="goal" value="gain_muscle">
+            <label for="gain_muscle">Gain Muscle</label>
+            <input type="radio" id="gain_muscle_lose_fat" name="goal" value="gain_muscle_lose_fat">
+            <label for="gain_muscle_lose_fat">Gain Muscle & Lose Fat</label>
+            <br>
+            <label for="country">UK Country:</label>
+            <select id="country" name="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+            </select>
+            <br>
+            <label for="bio">Your Interest:</label>
+            <textarea id="bio" name="bio" cols="30" rows="5"></textarea>
+            <br>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter</label>
+            <br>
+            <input type="submit" value="Send!">
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <h2>Up & Move</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>   
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </div>
+                    <div> 
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+    </footer>
 </body>
 </html>
